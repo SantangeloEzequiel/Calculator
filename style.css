@@ -26,10 +26,16 @@ body>div{
 
 .screen{
     display: flex;
-    padding: 20px;
+    min-height: 25px;
+    padding-right: 7%;
+    flex-grow: 1;
     background-color: green;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
+    margin-top: 6%;
     border-radius: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .buttons{
     display: flex;
