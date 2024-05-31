@@ -1,0 +1,68 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-color:  azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body>div{
+    display: flex;
+}
+
+.calculator{
+    background-color: #333;
+    padding: 3%;
+}
+
+.display{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.screen{
+    display: flex;
+    padding: 20px;
+    background-color: green;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.row{
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    min-width: 23%;
+    border-radius: 5px;
+    background-color: black;
+}
+.zero{
+    flex: 4;
+}
+
+.number{
+    color: greenyellow;
+    border-color: greenyellow;
+}
+.operator{
+    color: gold;
+    border-color: gold;
+}
+
+.special{
+    color: lightskyblue;
+    border-color: lightblue;
+}
